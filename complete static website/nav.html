@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>project</title>
+
+    <!--................................. here coad font link....................................... -->
+
+
+
+    <!--................................. here coad font link....................................... -->
+
+<!-- ........................................................................................................................ -->
+
+    <!--............................... here coad bootstarp css link............................................. -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--................. here end bootstrap css link..................... -->
+
+    <!--........................ here coadexternal css file.......................................... -->
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!--...................... here end external css coad............. -->
+  </head>
+  <body>
+    <div class="d-flex bd-highlight bg-danger py-3 bg-danger">
+      <div class="p-2 flex-grow-1 bd-highlight mx-3">
+        Logo
+        <input
+          class="form-control-sm"
+          type="search"
+          placeholder="input"
+          aria-label=".form-control-sm example"
+        />
+      </div>
+      <div class="shadow bg-danger flex-row d-flex flex-grow-1" id="navigation-1">
+        <div class="p-2 bd-highlight mx-3" id="ho">home</div>
+        <div class="p-2 bd-highlight mx-3">gallary</div>
+        <div class="p-2 bd-highlight mx-3">services</div>
+        <div class="p-2 bd-highlight me-5">aboutus</div>
+      </div>
+    </div>
+
+    <div id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="h2 p-3 text-success text-danger">
+              Welcome To Our Template Page
+            </h2>
+            <p class="p-3 text-light fs-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="our">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-decoration-underline text-center">our works</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="card">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card my-5" style="width: 18rem">
+              <img src="images/lee.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img src="images/davide.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card my-5" style="width: 18rem">
+              <img src="images/campaign.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--................................. create form coad start...................................... -->
+    <div id="form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-decoration-underline text-center">CONTACT US</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="forms">
+      <div class="container">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label"
+              >First name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              value="Mark"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom02"
+              value="Otto"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label"
+              >Username</label
+            >
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustomUsername"
+                aria-describedby="inputGroupPrepend"
+                required
+              />
+              <div class="invalid-feedback">Please choose a username.</div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom03"
+              required
+            />
+            <div class="invalid-feedback">Please provide a valid city.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">Please select a valid state.</div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom05"
+              required
+            />
+            <div class="invalid-feedback">Please provide a valid zip.</div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ...........................................end form coad................................................. -->
+
+
+       <!--.................... start footer coad in bootstrat........................ -->
+
+      <div id="footer">
+        <div class="container p-5 my-3">
+          <div class="row">
+          
+            <div class="col-md-4 my-2 d-flex align-items-center" >
+              <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/>
+              <img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/>
+              <img src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+              <img src="https://img.icons8.com/color/48/000000/instagram-new.png"/>
+              <img src="https://img.icons8.com/fluency/48/000000/youtube.png"/>
+
+            </div>
+
+            <div class="col-md-4 my-2 d-flex justify-content-center  align-items-center">
+              <ul class="list-unstyled " >
+                <li><a class="text-decoration-none text-light " href="#">Home</a></li>
+                <li><a class="text-decoration-none text-light" href="#">About</a></li>
+                <li><a class="text-decoration-none text-light" href="#">Contact us</a></li>
+                <li><a class="text-decoration-none text-light" href="#">Services</a></li>
+                <li><a class="text-decoration-none text-light" href="#">Our works</a></li>
+    
+              </ul>
+            </div>
+
+
+            <div class="col-md-4 text-light my-2 d-flex justify-content-center  align-items-center">
+              Copyright © 2021
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    <!--..................................... herecoad bootstrap java script coad................................. -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--......................... end of bootstrap coad................................. -->
+  </body>
+</html>
